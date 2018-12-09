@@ -1,9 +1,9 @@
 CREATE TABLE employee (
-	sys_id INTEGER NOT NULL,
-	emp_id INTEGER NOT NULL,
+	sys_id NUMBER(5) NOT NULL,
+	emp_id NUMBER(5) NOT NULL,
 	first_name VARCHAR(20) NOT NULL,
 	last_name VARCHAR(20) NOT NULL,
-	rank INTEGER,
+	rank NUMBER(5),
 	PRIMARY KEY(sys_id)
 	);
 
